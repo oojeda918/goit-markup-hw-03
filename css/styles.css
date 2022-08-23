@@ -43,12 +43,6 @@ body {
   display: flex;
   width: 100%;
   height: 600px;
-  font-weight: 900;
-  line-height: 136%;
-  text-align: center;
-  letter-spacing: 0.06em;
-  text-transform: uppercase;
-  color: #ffffff;
   background: #2f303a;
   flex-wrap: wrap;
   justify-content: center;
@@ -57,7 +51,6 @@ body {
 
 .tittlehero {
   display: flex;
-  flex-direction: row;
   width: 696px;
   height: 120px;
   font-family: "Roboto";
@@ -73,12 +66,10 @@ body {
 
 .buttonhero {
   display: flex;
-  flex-direction: row;
   justify-content: center;
   align-items: center;
   padding: 10px 32px;
   gap: 10px;
-  position: absolute;
   width: 261px;
   height: 50px;
   background: #2196f3;
