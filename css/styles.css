@@ -98,7 +98,30 @@ body {
   color: #757575;
 }
 
+.services {
+  display: flex;
+  flex-basis: auto;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.services div {
+  display: flex;
+  width: 1173px;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+  margin: 60px;
+}
+.services div img {
+  width: 373.16px;
+  height: 323.7px;
+  margin-bottom: 10px;
+}
+
 .tittleservices {
+  display: flex;
+  justify-content: center;
+  width: 100%;
   font-family: "Roboto";
   font-style: normal;
   font-weight: 700;
@@ -106,8 +129,20 @@ body {
   line-height: 42px;
   text-align: center;
   letter-spacing: 0.03em;
-
   color: #212121;
+}
+
+.servicesimg {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 1173px;
+}
+
+.servicesimg img {
+  display: flex;
+  width: 373.16px;
+  height: 323.7px;
 }
 
 .ustittle {
@@ -170,6 +205,13 @@ body {
 
 .footer {
   background: #2f303a;
+}
+
+.contentfooter {
+  display: flex;
+  width: 1170px;
+  flex-direction: column;
+  margin-left: 215px;
 }
 
 .footerlogo {
