@@ -209,7 +209,6 @@ body {
 
 .contentfooter {
   display: flex;
-  width: 1170px;
   flex-direction: column;
   margin-left: 215px;
 }
