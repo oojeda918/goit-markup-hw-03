@@ -209,8 +209,10 @@ body {
 
 .contentfooter {
   display: flex;
+  width: 231px;
   flex-direction: column;
-  margin-left: 215px;
+  padding: 60px 0px 60px 215px;
+  text-decoration: none;
 }
 
 .footerlogo {
@@ -226,6 +228,7 @@ body {
 
 .address {
   font-family: "Roboto";
+  text-decoration: none;
   font-style: normal;
   font-weight: 400;
   font-size: 14px;
