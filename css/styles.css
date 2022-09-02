@@ -11,6 +11,7 @@ body {
   display: flex;
   justify-content: space-around;
   margin: 32px 0px;
+  border-bottom: 1px solid #ececec;
 }
 
 .logoPrincipal {
@@ -301,24 +302,21 @@ body {
 }
 
 .footer {
+  display: flex;
   background: #2f303a;
-}
-
-.footer div ul {
-  list-style: none;
-  padding: 0px;
-  line-height: 24px;
-  letter-spacing: 0.03em;
+  justify-content: space-around;
 }
 
 .contentfooter {
   display: flex;
+  flex-basis: 80%;
   flex-direction: column;
-  padding: 60px 0px 60px 215px;
-  text-decoration: none;
+  align-items: flex-start;
 }
 
 .footerlogo {
+  display: flex;
+  flex-wrap: wrap;
   font-family: "Raleway";
   font-style: normal;
   text-decoration: none;
@@ -338,6 +336,14 @@ body {
   line-height: 171%;
   letter-spacing: 0.03em;
   color: #ffffff;
+}
+.list-footer {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  list-style: none;
+  padding: 0;
+  margin: 0%;
 }
 
 .contactfooter {
