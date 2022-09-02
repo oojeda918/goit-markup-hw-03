@@ -4,22 +4,19 @@ body {
     Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
   background: #ffffff;
   color: #212121;
+  margin: 0;
 }
 
-.header {
-  font-style: normal;
-  font-weight: 500;
-  font-size: 14px;
-  line-height: 16px;
-  letter-spacing: 0.02em;
-}
-
-.header > nav > a {
-  color: #212121;
-  text-decoration: none;
+.site-header {
+  display: flex;
+  justify-content: space-around;
+  margin: 32px 0px;
 }
 
 .logoPrincipal {
+  display: flex;
+  flex-basis: 33%;
+  justify-content: flex-end;
   font-family: "Raleway";
   font-style: normal;
   font-weight: 700;
@@ -28,7 +25,38 @@ body {
   color: #2196f3;
 }
 
+.list-container {
+  display: flex;
+  flex-basis: 30%;
+  padding: 0;
+  margin: 0;
+  list-style: none;
+  align-items: center;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+}
+
+.list-item {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 16px;
+  letter-spacing: 0.02em;
+  color: #212121;
+  text-align: start;
+}
+
 .headercontact {
+  display: flex;
+  flex-basis: 42%;
+  justify-content: space-evenly;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.headercontact a {
+  display: flex;
   font-family: "Roboto";
   text-decoration: none;
   font-style: normal;
@@ -39,8 +67,12 @@ body {
   color: #757575;
 }
 
-.hero {
+.herocontainer {
   display: flex;
+  flex-flow: column wrap;
+  justify-content: space-around;
+  padding: 0;
+  margin: 0;
   width: 100%;
   height: 600px;
   background: #2f303a;
@@ -49,10 +81,13 @@ body {
   align-items: center;
 }
 
+.herocontent {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
 .tittlehero {
   display: flex;
-  width: 696px;
-  height: 120px;
   font-family: "Roboto";
   font-style: normal;
   font-weight: 900;
@@ -79,23 +114,64 @@ body {
 }
 
 .qualitiescontainer {
+  display: flex;
+  justify-content: space-around;
 }
-.tittlequalities {
+
+.qualitieslist {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-around;
+  padding: 0;
+  margin: 0;
+  list-style: none;
+}
+
+.qualitiesitem {
+  padding: 5px;
+  width: 270px;
+  height: 150px;
+  margin-top: 10px;
+  line-height: 150px;
+  color: white;
+  font-weight: bold;
+  font-size: 3em;
+  text-align: center;
   font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 171%;
+
+  letter-spacing: 0.03em;
+
+  color: #757575;
+}
+
+.qualitiesitem p {
+  text-align: left;
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 171%;
+
+  letter-spacing: 0.03em;
+
+  color: #757575;
+}
+
+.qualitiesitem h4 {
+  text-align: left;
+  font-family: "Roboto";
+  font-style: normal;
   font-weight: 700;
   font-size: 14px;
   line-height: 16px;
   letter-spacing: 0.03em;
   text-transform: uppercase;
-}
 
-.textqualities {
-  font-family: "Roboto";
-  font-weight: 400;
-  font-size: 14px;
-  line-height: 171%;
-  letter-spacing: 0.03em;
-  color: #757575;
+  color: #212121;
 }
 
 .services {
@@ -207,9 +283,15 @@ body {
   background: #2f303a;
 }
 
+.footer div ul {
+  list-style: none;
+  padding: 0px;
+  line-height: 24px;
+  letter-spacing: 0.03em;
+}
+
 .contentfooter {
   display: flex;
-  width: 231px;
   flex-direction: column;
   padding: 60px 0px 60px 215px;
   text-decoration: none;
