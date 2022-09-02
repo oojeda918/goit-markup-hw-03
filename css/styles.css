@@ -4,7 +4,8 @@ body {
     Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
   background: #ffffff;
   color: #212121;
-  margin: 0;
+  margin: auto;
+  max-width: 1600px;
 }
 
 .site-header {
@@ -211,8 +212,8 @@ body {
   margin: 60px;
 }
 .services div img {
-  width: 373.16px;
-  height: 323.7px;
+  width: 300px;
+  height: 300px;
   margin-bottom: 10px;
 }
 
@@ -257,7 +258,7 @@ body {
 
 .profilecontainer {
   display: flex;
-  justify-content: center;
+  justify-content: space-evenly;
   flex-wrap: wrap;
   background: #f5f4fa;
 }
@@ -265,7 +266,6 @@ body {
 .cardprofile {
   width: 270px;
   height: 368px;
-  margin: 0px 37px 94px 0px;
   border-radius: 0px;
   background: #ffffff;
   box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14),
