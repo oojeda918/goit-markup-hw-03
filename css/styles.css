@@ -5,7 +5,8 @@ body {
   background: #ffffff;
   color: #212121;
   margin: auto;
-  max-width: 1600px;
+  max-width: 1200px;
+  font-family: "Roboto";
 }
 
 /* ESTILOS INDEX */
@@ -107,7 +108,6 @@ body {
   padding: 0;
   margin: 0;
   width: 100%;
-  height: 600px;
   background: #2f303a;
   flex-wrap: wrap;
   justify-content: center;
@@ -144,6 +144,7 @@ body {
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
   border-radius: 4px;
   color: #ffffff;
+  border: none;
 }
 
 /* CUALIDADES */
@@ -372,7 +373,7 @@ body {
 /* ESTILOS PORTAFOLIO */
 
 .container {
-  max-width: 1600px;
+  max-width: 1200px;
 }
 
 .section {
