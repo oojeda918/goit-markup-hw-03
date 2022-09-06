@@ -13,6 +13,10 @@ body {
 
 /*  HEADER */
 
+.nav {
+  display: flex;
+}
+
 .site-header {
   display: flex;
   justify-content: space-around;
@@ -221,10 +225,8 @@ body {
 
 .services div {
   display: flex;
-  width: 1173px;
   justify-content: space-evenly;
   flex-wrap: wrap;
-  margin: 60px;
 }
 .services div img {
   width: 300px;
