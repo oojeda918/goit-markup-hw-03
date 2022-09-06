@@ -15,20 +15,21 @@ body {
 
 .nav {
   display: flex;
+  justify-content: center;
 }
 
 .site-header {
   display: flex;
-  justify-content: space-around;
-  padding: 32px 0px;
+  margin: auto;
+  border-bottom: 1px solid #ececec;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  align-items: center;
   border-bottom: 1px solid #ececec;
 }
 
 /* Logo header */
 .logoPrincipal {
-  display: flex;
-  flex-basis: 33%;
-  justify-content: flex-end;
   font-family: "Raleway";
   font-style: normal;
   font-weight: 700;
@@ -40,12 +41,7 @@ body {
 /* navegacion header */
 .list-container {
   display: flex;
-  flex-basis: 30%;
-  padding: 0;
-  margin: 0;
   list-style: none;
-  align-items: center;
-  justify-content: space-evenly;
   flex-wrap: wrap;
 }
 
@@ -75,7 +71,6 @@ body {
 /* contacto header */
 .headercontact {
   display: flex;
-  flex-basis: 42%;
   justify-content: space-evenly;
   align-items: center;
   flex-wrap: wrap;
